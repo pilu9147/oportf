@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #292119;
+  color: #fff;
+}
+.cover {
+  height: 100vh;
+  background: url(https://images.pexels.com/photos/2088205/pexels-photo-2088205.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu li,.m
+ {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+}
+
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f9b53a;
+}
+.logo {
+  margin-left: 100px;
+  padding: auto;
+}
+.btn button,
+c {
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: auto 100px auto 0;
+  background-color: #f9b53a;
+  border: hidden;
+  transition: 0.5s;
+}
+.name {
+  color: #292119;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 18%;
+  font-size: 60px;
+  font-stretch: condensed;
+  letter-spacing: 18px;
+  padding-bottom: 20px;
+}
+.occ {
+  color: #292119;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 28px;
+}
+.main {
+  background-color: #292119;
+  margin-bottom: 100px;
+}
+.fst {
+  color: white;
+  text-align: center;
+  line-height: 1.7;
+}
+.fst span {
+  color: #f9b53a;
+}
+#rm {
+  border-radius: 10px;
+  padding: 8px 12px;
+  background-color: #f9b53a;
+  border: hidden;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+#rme {
+  color: floralwhite;
+  border-radius: 10px;
+  padding: 6px 12px;
+  border: 1px solid white;
+  background-color: #292119;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+
+.description {
+  background-color: black;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid darkslategrey;
+  border-radius: 10px;
+  width: 70%;
+  min-height: fit-content;
+  padding: 15px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person img {
+  height: 40vh;
+  width: 20vw;
+}
+.aaa {
+  width: 50vw;
+  padding-left: 3vw;
+}
+.aaa h1 {
+  padding-bottom: 15px;
+  color: #f9b53a;
+}
+.aaa p {
+  font-weight: 100;
+}
+.b2 {
+  color: #fff;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  padding: 8px 30px;
+}
+
+
+
+
+/* kro agal */
+.ability {
+  color: #f9b53a;
+  margin: 50px 0;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+
+}
+.cards {
+  border: 1px solid darkslategrey;
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
+.cards h5 {
+  padding-top: 10px;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.btn2 {
+  border-radius: 10px;
+  padding: 8px 12px;
+  background-color: #f9b53a;
+  border: hidden;
+  transition: 0.5s;
+}
+.al {
+  text-align: center;
+  color: #f9b53a;
+  margin: 50px 0 50px 0;
+}
+.img img {
+  width: 60vw;
+  height: 50vh;
+  border-radius: 10px;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+.d1 {
+  width: 70vw;
+}
+footer {
+  margin-top: 50px 0;
+  padding: 50px 0;
+  background-color: black;
+}
+.abv {
+  width: 75vw;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+/* .lnkk span {
+  border-top: #fff;
+}
+.c2 li,
+.c4 li {
+  list-style: none;
+  padding: 8px;
+}
+.lnk a {
+  padding-top: 8px;
+}
+.lnk {
+  display: inline;
+}
+
+.c3 p,
+.y {
+  color: #f9b53a;
+}
+
+.bl {
+  padding: 20px 0 20px 12vw;
+} */
+/* 
+.common li{
+  list-style: none;
+}
+.lnk ul{
+  display: flex;
+  padding: 0 !important;
+
+} */
+
+
+.yuxin{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.sstart h2{
+  color: orange;
+  margin-bottom: 10px;
+}
+.sstart p {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.sstart a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
